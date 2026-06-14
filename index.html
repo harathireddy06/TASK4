@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenFootprint | Plant Today, Protect Tomorrow</title>
+    <meta name="description" content="GreenFootprint is a leading NGO dedicated to tree plantation drives, environmental awareness, and community sustainability initiatives. Join us in making the planet greener.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Navigation -->
+      <nav id="main-nav" class="sticky-nav">
+        <div class="nav-container">
+          <a href="#" class="logo">
+            <span class="logo-icon">🌱</span>
+            <span class="logo-text">GreenFootprint</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#drives">Plantation Drives</a></li>
+            <li><a href="#awareness">Awareness</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#donate" class="btn btn-primary nav-cta">Donate Now</a>
+          <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
+      <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="animate-up">Plant Today, <span class="highlight">Protect Tomorrow</span></h1>
+            <p class="hero-subtitle animate-up-delay">Join GreenFootprint in our mission to restore Earth's canopy and build resilient communities through collective action.</p>
+            <div class="hero-btns animate-up-delay-2">
+              <a href="#drives" class="btn btn-secondary">Join a Plantation Drive</a>
+              <a href="#volunteer" class="btn btn-outline">Become a Volunteer</a>
+            </div>
+          </div>
+          <div class="hero-scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+          </div>
+        </section>
+
+        <!-- Impact Statistics -->
+        <section class="impact-stats">
+          <div class="container">
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number" data-target="150000">0</span>
+                <span class="stat-label">Trees Planted</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="12000">0</span>
+                <span class="stat-label">Active Volunteers</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="450">0</span>
+                <span class="stat-label">Communities Reached</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="25000">0</span>
+                <span class="stat-label">CO₂ Offset (Tons)</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Us -->
+        <section id="about" class="about-section bg-light">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-tag">Our Story</span>
+              <h2>Mission & Vision</h2>
+            </div>
+            <div class="about-grid">
+              <div class="about-content">
+                <p>Founded in 2015, GreenFootprint began with a simple belief: that every individual has the power to heal the planet. What started as a local initiative has grown into a global movement of environmental stewards.</p>
+                <div class="mission-vision">
+                  <div class="mv-box">
+                    <h3>Mission</h3>
+                    <p>To facilitate large-scale reforestation and empower communities with the tools for long-term ecological sustainability.</p>
+                  </div>
+                  <div class="mv-box">
+                    <h3>Vision</h3>
+                    <p>A world where humanity lives in perfect harmony with nature, ensuring a green legacy for generations to come.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="about-timeline">
+                <h3>Our Journey</h3>
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="year">2015</span>
+                    <p>First 1,000 trees planted in Mumbai.</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="year">2018</span>
+                    <p>Reached 10,000 volunteers milestone.</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="year">2021</span>
+                    <p>Launched National Sustainability Program.</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="year">2024</span>
+                    <p>Awarded Green Excellence Global Prize.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Plantation Drives -->
+        <section id="drives" class="drives-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-tag">Take Action</span>
+              <h2>Upcoming Plantation Drives</h2>
+            </div>
+            <div class="events-grid">
+              <div class="event-card">
+                <div class="event-badge">New Delhi</div>
+                <div class="event-image placeholder-img" id="img-drive-1"></div>
+                <div class="event-info">
+                  <span class="event-date">June 20, 2026</span>
+                  <h3>Urban Canopy Project</h3>
+                  <p>Join us in New Delhi for a massive urban greening initiative to combat heatwaves.</p>
+                  <a href="#" class="btn btn-sm btn-primary open-modal" data-modal="register-modal">Register Now</a>
+                </div>
+              </div>
+              <div class="event-card">
+                <div class="event-badge">Bangalore</div>
+                <div class="event-image placeholder-img" id="img-drive-2"></div>
+                <div class="event-info">
+                  <span class="event-date">July 05, 2026</span>
+                  <h3>Lake Restoration Drive</h3>
+                  <p>Planting native species along the Bellandur lake area to restore local biodiversity.</p>
+                  <a href="#" class="btn btn-sm btn-primary open-modal" data-modal="register-modal">Register Now</a>
+                </div>
+              </div>
+              <div class="event-card">
+                <div class="event-badge">Pune</div>
+                <div class="event-image placeholder-img" id="img-drive-3"></div>
+                <div class="event-info">
+                  <span class="event-date">August 12, 2026</span>
+                  <h3>Hills Reforestation</h3>
+                  <p>Scaling the Pune hills to plant 5,000 indigenous saplings before the monsoon ends.</p>
+                  <a href="#" class="btn btn-sm btn-primary open-modal" data-modal="register-modal">Register Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Awareness Section -->
+        <section id="awareness" class="awareness-section bg-dark">
+          <div class="container">
+            <div class="section-header text-white">
+              <span class="section-tag">Learn & Grow</span>
+              <h2>Environmental Awareness</h2>
+            </div>
+            <div class="blog-grid">
+              <article class="blog-card">
+                <div class="blog-image placeholder-img" id="img-blog-1"></div>
+                <div class="blog-content">
+                  <span class="blog-category">Sustainability</span>
+                  <h3>10 Easy Recycling Tips</h3>
+                  <p>How you can reduce your daily waste by up to 40% with simple habit changes.</p>
+                  <a href="#" class="read-more">Read Full Guide →</a>
+                </div>
+              </article>
+              <article class="blog-card">
+                <div class="blog-image placeholder-img" id="img-blog-2"></div>
+                <div class="blog-content">
+                  <span class="blog-category">Climate Change</span>
+                  <h3>Understanding CO₂ Offset</h3>
+                  <p>Why planting trees remains one of the most effective ways to slow global warming.</p>
+                  <a href="#" class="read-more">Read Full Guide →</a>
+                </div>
+              </article>
+              <article class="blog-card">
+                <div class="blog-image placeholder-img" id="img-blog-3"></div>
+                <div class="blog-content">
+                  <span class="blog-category">Education</span>
+                  <h3>Native vs Invasive Species</h3>
+                  <p>The importance of choosing the right trees for your local ecosystem.</p>
+                  <a href="#" class="read-more">Read Full Guide →</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Volunteer Portal -->
+        <section id="volunteer" class="volunteer-section">
+          <div class="container">
+            <div class="volunteer-flex">
+              <div class="volunteer-content">
+                <span class="section-tag">Unity</span>
+                <h2>Become a Volunteer</h2>
+                <p>Volunteers are the heartbeat of GreenFootprint. Whether you're an expert botanist or just someone who loves the outdoors, there's a place for you in our community.</p>
+                <img src="/volunteer.png" alt="Volunteers working together" class="volunteer-img animate-up">
+                <ul class="benefit-list">
+                  <li>Community of like-minded eco-warriors</li>
+                  <li>Hands-on environmental training</li>
+                  <li>Certificate of participation</li>
+                  <li>Impact you can see and touch</li>
+                </ul>
+              </div>
+              <div class="volunteer-form-container">
+                <form id="volunteer-form" class="premium-form">
+                  <h3>Sign Up Today</h3>
+                  <div class="form-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                  </div>
+                  <div class="form-group">
+                    <select name="skills" required>
+                      <option value="" disabled selected>Select Your Primary Skill</option>
+                      <option value="planting">Tree Planting</option>
+                      <option value="awareness">Awareness Drives</option>
+                      <option value="admin">Admin & Coordination</option>
+                      <option value="it">Tech & Social Media</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select name="availability" required>
+                      <option value="" disabled selected>Availability</option>
+                      <option value="weekends">Weekends Only</option>
+                      <option value="weekdays">Weekdays Only</option>
+                      <option value="flexible">Flexible</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+                </form>
+                <div id="volunteer-success" class="form-success hidden">
+                  <div class="success-icon">✓</div>
+                  <h4>Application Sent!</h4>
+                  <p>Thank you for joining the movement. We'll contact you within 48 hours.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Donate Section -->
+        <section id="donate" class="donate-section bg-accent">
+          <div class="container">
+            <div class="donate-grid">
+              <div class="donate-info">
+                <h2>Small Contribution, <span class="highlight">Big Impact</span></h2>
+                <p>Your donations go directly toward purchasing saplings, maintenance gear, and educational materials for rural schools.</p>
+                <div class="impact-calculator">
+                  <img src="/sapling.png" alt="Sapling growth" class="sapling-img">
+                  <h4>Donation Impact Calculator</h4>
+                  <div class="calc-input">
+                    <span>₹</span>
+                    <input type="number" id="donate-amount" value="1000">
+                  </div>
+                  <p class="calc-result">This will plant and maintain <span id="tree-count">5</span> trees for 3 years.</p>
+                </div>
+              </div>
+              <div class="donate-options">
+                <div class="donation-card">
+                  <div class="amount-tabs">
+                    <button class="amount-tab active" data-amount="500">₹500</button>
+                    <button class="amount-tab" data-amount="1000">₹1000</button>
+                    <button class="amount-tab" data-amount="5000">₹5000</button>
+                    <button class="amount-tab" data-amount="custom">Other</button>
+                  </div>
+                  <div class="donation-type">
+                    <label><input type="radio" name="freq" id="one-time" checked> One-time</label>
+                    <label><input type="radio" name="freq" id="monthly"> Monthly</label>
+                  </div>
+                  <button class="btn btn-primary btn-block open-modal" data-modal="donate-modal">Proceed to Donate</button>
+                  <p class="transparency-note">100% of your donation is utilized for field operations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="gallery-section">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-tag">Visuals</span>
+              <h2>Project Showcase</h2>
+            </div>
+            <div class="gallery-grid">
+              <div class="gallery-item" data-category="planting">
+                <div class="gallery-image placeholder-img" id="img-gallery-1"></div>
+                <div class="gallery-overlay">
+                  <span>Planting Drive 2025</span>
+                </div>
+              </div>
+              <div class="gallery-item" data-category="awareness">
+                <div class="gallery-image placeholder-img" id="img-gallery-2"></div>
+                <div class="gallery-overlay">
+                  <span>School Awareness Workshop</span>
+                </div>
+              </div>
+              <div class="gallery-item" data-category="community">
+                <div class="gallery-image placeholder-img" id="img-gallery-3"></div>
+                <div class="gallery-overlay">
+                  <span>Community Garden Harvest</span>
+                </div>
+              </div>
+              <div class="gallery-item" data-category="planting">
+                <div class="gallery-image placeholder-img" id="img-gallery-4"></div>
+                <div class="gallery-overlay">
+                  <span>Hill Reforestation</span>
+                </div>
+              </div>
+              <div class="gallery-item" data-category="awareness">
+                <div class="gallery-image placeholder-img" id="img-gallery-5"></div>
+                <div class="gallery-overlay">
+                  <span>Climate March 2026</span>
+                </div>
+              </div>
+              <div class="gallery-item" data-category="community">
+                <div class="gallery-image placeholder-img" id="img-gallery-6"></div>
+                <div class="gallery-overlay">
+                  <span>Volunteer Recognition Day</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Success Stories -->
+        <section class="stories-section bg-light">
+          <div class="container">
+            <div class="section-header">
+              <span class="section-tag">Voices</span>
+              <h2>Success Stories</h2>
+            </div>
+            <div class="testimonials-slider">
+              <div class="testimonial-card">
+                <p>"Seeing the saplings we planted three years ago grow into actual trees is the most rewarding experience of my life."</p>
+                <div class="testimonial-author">
+                  <div class="author-img placeholder-img" id="img-author-1"></div>
+                  <div>
+                    <h4>Anjali Sharma</h4>
+                    <span>Active Volunteer since 2022</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <p>"GreenFootprint transformed our village's arid land into a thriving community forest. The ground water levels have already improved."</p>
+                <div class="testimonial-author">
+                  <div class="author-img placeholder-img" id="img-author-2"></div>
+                  <div>
+                    <h4>Rajesh Kumar</h4>
+                    <span>Sarpanch, Village Khed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+          <div class="container">
+            <div class="contact-wrapper">
+              <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Have questions or want to partner with us? Reach out and we'll get back to you.</p>
+                <div class="contact-details">
+                  <div class="detail-item">
+                    <span class="icon">📍</span>
+                    <p>42, Eco Park Plaza, MG Road, Bangalore, India</p>
+                  </div>
+                  <div class="detail-item">
+                    <span class="icon">📞</span>
+                    <p>+91 98765 43210</p>
+                  </div>
+                  <div class="detail-item">
+                    <span class="icon">✉️</span>
+                    <p>hello@greenfootprint.org</p>
+                  </div>
+                </div>
+                <div class="social-links">
+                  <a href="#">Fb</a>
+                  <a href="#">Tw</a>
+                  <a href="#">Ig</a>
+                  <a href="#">Li</a>
+                </div>
+              </div>
+              <div class="contact-form-container">
+                <form id="contact-form" class="premium-form">
+                  <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div id="contact-success" class="form-success hidden">
+                  <div class="success-icon">✓</div>
+                  <h4>Message Sent!</h4>
+                  <p>We've received your inquiry and will respond shortly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="main-footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <a href="#" class="logo">
+                <span class="logo-icon">🌱</span>
+                <span class="logo-text">GreenFootprint</span>
+              </a>
+              <p>Protecting tomorrow, one tree at a time. Join the movement for a greener planet.</p>
+            </div>
+            <div class="footer-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#drives">Events</a></li>
+                <li><a href="#awareness">Blog</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+              </ul>
+            </div>
+            <div class="footer-links">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-newsletter">
+              <h4>Newsletter</h4>
+              <p>Get monthly updates on our drives and impact.</p>
+              <form id="newsletter-form" class="newsletter-form">
+                <input type="email" placeholder="Email Address" required>
+                <button type="submit">Subscribe</button>
+              </form>
+              <div id="newsletter-success" class="form-success-mini hidden">Thanks for subscribing!</div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2026 GreenFootprint NGO. All rights reserved. | <a href="#">Website Design by Antigravity</a></p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Modals -->
+      <div id="register-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h3>Event Registration</h3>
+          <p>Please fill in the details for the Urban Canopy Project.</p>
+          <form class="premium-form modal-form" id="event-reg-form">
+            <div class="form-group">
+              <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Phone Number" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Confirm Registration</button>
+          </form>
+          <div id="event-reg-success" class="form-success hidden">
+            <div class="success-icon">✓</div>
+            <h4>Registered!</h4>
+            <p>You're on the list. See you at the drive!</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="donate-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h3>Donation Secured</h3>
+          <div id="donation-checkout">
+            <p>You are about to donate ₹<span id="modal-amount">1000</span> to GreenFootprint.</p>
+            <div class="payment-methods">
+              <div class="payment-method">UPI</div>
+              <div class="payment-method">Card</div>
+              <div class="payment-method">Net Banking</div>
+            </div>
+            <button class="btn btn-primary btn-block" id="final-donate-btn">Complete Transaction</button>
+          </div>
+          <div id="donation-success" class="form-success hidden">
+             <div class="success-icon">✓</div>
+             <h4>Donation Received!</h4>
+             <p>Thank you for your generous contribution. A receipt has been sent to your email.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" src="" alt="Gallery Image">
+        <div class="lightbox-caption"></div>
+      </div>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
